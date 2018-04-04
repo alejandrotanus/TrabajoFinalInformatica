@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:oryx="http://oryx-editor.org" id="_EAF52B47-3DE1-4269-9524-8403BD7FCB62" width="3058" height="2058" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg"><defs/><g stroke="none" font-family="Verdana, sans-serif" font-size-adjust="none" font-style="normal" font-variant="normal" font-weight="normal" line-heigth="normal" font-size="12"><g class="stencils" transform="translate(29, 29)"><g class="me"/><g class="children"><g id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6" bpmn2nodeid="_E17B4AE4-BE30-4207-81F4-38132FB9212D"><g class="stencils" transform="translate(15, 15)"><g class="me"><g pointer-events="painted" id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6">
+  
+     <defs id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6__F3D2ED5E-9261-403B-99CF-777CAB4F76A6_3">
+		<radialGradient id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6background" cx="0%" cy="10%" r="100%" fx="20%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1" id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6__F3D2ED5E-9261-403B-99CF-777CAB4F76A6_4"/>
+			<stop id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6fill_el" offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+	
+  	
+	<rect id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6border" oryx:resize="vertical horizontal" x="0" y="0" width="600" height="250" stroke="#000000" stroke-width="1" fill="url(#_F3D2ED5E-9261-403B-99CF-777CAB4F76A6background) white"/>
+	
+	
+	
+	<path id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6frame2" style="fill:none;stroke-width:1" d="M 0,0 L 0,250" oryx:anchors="left top bottom" stroke="#000000"/>
+	
+	undefined
+	
+    <text x="50" y="125" oryx:rotate="270" font-size="12" id="_F3D2ED5E-9261-403B-99CF-777CAB4F76A6text_name" oryx:align="middle center" oryx:anchors="left" oryx:fittoelem="frame" stroke="black" stroke-width="0pt" letter-spacing="-0.01px" fill="#000000" text-anchor="middle" transform="rotate(270 50 125)" visibility="inherit" oryx:fontSize="12"><tspan x="50" y="125" dy="5" id="ext-gen784">Alumno</tspan></text>
+  </g></g><g class="children" style="overflow:hidden"><g id="_32589241-0F7C-4029-95CB-E8013E74CB86" bpmn2nodeid="processStartEvent"><g class="stencils" transform="translate(135, 110)"><g class="me"><g pointer-events="fill" id="_32589241-0F7C-4029-95CB-E8013E74CB86">
+  
+    <defs id="_32589241-0F7C-4029-95CB-E8013E74CB86__32589241-0F7C-4029-95CB-E8013E74CB86_5">
+		<radialGradient id="_32589241-0F7C-4029-95CB-E8013E74CB86background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1" id="_32589241-0F7C-4029-95CB-E8013E74CB86__32589241-0F7C-4029-95CB-E8013E74CB86_6"/>
+			<stop id="_32589241-0F7C-4029-95CB-E8013E74CB86fill_el" offset="100%" stop-color="#9acd32" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+	
+    <circle id="_32589241-0F7C-4029-95CB-E8013E74CB86bg_frame" cx="15" cy="15" r="15" stroke="#000000" fill="url(#_32589241-0F7C-4029-95CB-E8013E74CB86background) white" stroke-width="1" style="stroke-dasharray: 5.5, 3"/>
+
+    <circle id="_32589241-0F7C-4029-95CB-E8013E74CB86frame" cx="15" cy="15" r="15" stroke="#000000" fill="none" stroke-width="1"/>
+
+	<text font-size="11" id="_32589241-0F7C-4029-95CB-E8013E74CB86text_name" x="15" y="32" oryx:align="top center" stroke="black" stroke-width="0pt" letter-spacing="-0.01px" fill="#000000" text-anchor="middle" transform="rotate(0 15 32)" visibility="inherit" oryx:fontSize="11"><tspan x="15" y="32" dy="11" id="ext-gen760">Voluntad de iniciar Trabajo Final</tspan></text>
+  </g></g><g class="children" style="overflow:hidden"/><g class="edge"/></g><g class="controls"><g class="dockers"/><g class="magnets" transform="translate(135, 110)"><g pointer-events="all" display="none" transform="translate(7, 7)"><circle cx="8" cy="8" r="4" stroke="none" fill="red" fill-opacity="0.3"/></g></g></g></g></g><g class="edge"/></g><g class="controls"><g class="dockers"/><g class="magnets" transform="translate(15, 15)"><g pointer-events="all" display="none" transform="translate(292, 117)"><circle cx="8" cy="8" r="4" stroke="none" fill="red" fill-opacity="0.3"/></g></g></g></g><g id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73" bpmn2nodeid="_13D1BB2D-FDB7-4B61-A722-E3581EE6FBE3"><g class="stencils" transform="translate(15, 285)"><g class="me"><g pointer-events="painted" id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73">
+  
+     <defs id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73__5FCD0865-EE85-41C0-B5C4-8C0D423B9E73_3">
+		<radialGradient id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73background" cx="0%" cy="10%" r="100%" fx="20%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1" id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73__5FCD0865-EE85-41C0-B5C4-8C0D423B9E73_4"/>
+			<stop id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73fill_el" offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+	
+  	
+	<rect id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73border" oryx:resize="vertical horizontal" x="0" y="0" width="600" height="250" stroke="#000000" stroke-width="1" fill="url(#_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73background) white"/>
+	
+	
+	
+	<path id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73frame2" style="fill:none;stroke-width:1" d="M 0,0 L 0,250" oryx:anchors="left top bottom" stroke="#000000"/>
+	
+	undefined
+	
+    <text x="50" y="125" oryx:rotate="270" font-size="12" id="_5FCD0865-EE85-41C0-B5C4-8C0D423B9E73text_name" oryx:align="middle center" oryx:anchors="left" oryx:fittoelem="frame" stroke="black" stroke-width="0pt" letter-spacing="-0.01px" fill="#000000" text-anchor="middle" transform="rotate(270 50 125)" visibility="inherit" oryx:fontSize="12"><tspan x="50" y="125" dy="-1">Secretaría de la Facultad de </tspan><tspan x="50" y="125" dy="11">Ingenierí­a y Ciencias Agrarias</tspan></text>
+  </g></g><g class="children" style="overflow:hidden"/><g class="edge"/></g><g class="controls"><g class="dockers"/><g class="magnets" transform="translate(15, 285)"><g pointer-events="all" display="none" transform="translate(292, 117)"><circle cx="8" cy="8" r="4" stroke="none" fill="red" fill-opacity="0.3"/></g></g></g></g><g id="_2F85692B-B627-4C96-BFA5-4DC699389007" bpmn2nodeid="_B1A4C361-3FB0-4F5E-A2DC-114686134C9E"><g class="stencils" transform="translate(15, 555)"><g class="me"><g pointer-events="painted" id="_2F85692B-B627-4C96-BFA5-4DC699389007">
+  
+     <defs id="_2F85692B-B627-4C96-BFA5-4DC699389007__2F85692B-B627-4C96-BFA5-4DC699389007_3">
+		<radialGradient id="_2F85692B-B627-4C96-BFA5-4DC699389007background" cx="0%" cy="10%" r="100%" fx="20%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1" id="_2F85692B-B627-4C96-BFA5-4DC699389007__2F85692B-B627-4C96-BFA5-4DC699389007_4"/>
+			<stop id="_2F85692B-B627-4C96-BFA5-4DC699389007fill_el" offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+	
+  	
+	<rect id="_2F85692B-B627-4C96-BFA5-4DC699389007border" oryx:resize="vertical horizontal" x="0" y="0" width="600" height="250" stroke="#000000" stroke-width="1" fill="url(#_2F85692B-B627-4C96-BFA5-4DC699389007background) white"/>
+	
+	
+	
+	<path id="_2F85692B-B627-4C96-BFA5-4DC699389007frame2" style="fill:none;stroke-width:1" d="M 0,0 L 0,250" oryx:anchors="left top bottom" stroke="#000000"/>
+	
+	undefined
+	
+    <text x="50" y="125" oryx:rotate="270" font-size="12" id="_2F85692B-B627-4C96-BFA5-4DC699389007text_name" oryx:align="middle center" oryx:anchors="left" oryx:fittoelem="frame" stroke="black" stroke-width="0pt" letter-spacing="-0.01px" fill="#000000" text-anchor="middle" transform="rotate(270 50 125)" visibility="inherit" oryx:fontSize="12"><tspan x="50" y="125" dy="-1">Dirección de la carrera de Ingenierí­a </tspan><tspan x="50" y="125" dy="11">en Informática</tspan></text>
+  </g></g><g class="children" style="overflow:hidden"/><g class="edge"/></g><g class="controls"><g class="dockers"/><g class="magnets" transform="translate(15, 555)"><g pointer-events="all" display="none" transform="translate(292, 117)"><circle cx="8" cy="8" r="4" stroke="none" fill="red" fill-opacity="0.3"/></g></g></g></g></g><g class="edge"/><text id="_82354596-CA56-42C1-BFB9-5BD6FB4D1672" style="stroke-width:1;fill:rgb(177,194,214);font-family:arial;font-weight:bold" font-size="12" onclick="ORYX.Plugins.CanvasTitle.openTextualAnalysis()" onmouseover="ORYX.Plugins.CanvasTitle.addToolTip('_82354596-CA56-42C1-BFB9-5BD6FB4D1672')" transform="translate(10, 20)"/></g></g></svg>
