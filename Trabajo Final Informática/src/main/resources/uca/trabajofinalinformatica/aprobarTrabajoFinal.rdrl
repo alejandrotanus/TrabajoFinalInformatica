@@ -1,0 +1,9 @@
+package uca.trabajofinalinformatica;
+
+import java.lang.Number;
+
+rule "aprobarTrabajoFinal"
+	dialect "mvel"
+	when
+	then
+end
