@@ -6,12 +6,70 @@ package com.uca;
 
 public class Alumno implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Alumno() {
-    }
+	@org.kie.api.definition.type.Label("Nombre y Apellido")
+	private java.lang.String nombre;
+	@org.kie.api.definition.type.Label("N° Legajo")
+	private java.lang.String nro_legajo;
+	@org.kie.api.definition.type.Label("Año de Fin de Cursada")
+	private java.lang.Integer anioFinCursada;
+	@org.kie.api.definition.type.Label("Estado")
+	private java.lang.Integer estado;
+	@org.kie.api.definition.type.Label("Dirección de correo electrónico")
+	private java.lang.String email;
 
+	public Alumno() {
+	}
 
+	public java.lang.String getNombre() {
+		return this.nombre;
+	}
 
+	public void setNombre(java.lang.String nombre) {
+		this.nombre = nombre;
+	}
+
+	public java.lang.String getNro_legajo() {
+		return this.nro_legajo;
+	}
+
+	public void setNro_legajo(java.lang.String nro_legajo) {
+		this.nro_legajo = nro_legajo;
+	}
+
+	public java.lang.Integer getAnioFinCursada() {
+		return this.anioFinCursada;
+	}
+
+	public void setAnioFinCursada(java.lang.Integer anioFinCursada) {
+		this.anioFinCursada = anioFinCursada;
+	}
+
+	public java.lang.Integer getEstado() {
+		return this.estado;
+	}
+
+	public void setEstado(java.lang.Integer estado) {
+		this.estado = estado;
+	}
+
+	public java.lang.String getEmail() {
+		return this.email;
+	}
+
+	public void setEmail(java.lang.String email) {
+		this.email = email;
+	}
+
+	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
+			java.lang.Integer anioFinCursada, java.lang.Integer estado,
+			java.lang.String email) {
+		this.nombre = nombre;
+		this.nro_legajo = nro_legajo;
+		this.anioFinCursada = anioFinCursada;
+		this.estado = estado;
+		this.email = email;
+	}
 
 }
