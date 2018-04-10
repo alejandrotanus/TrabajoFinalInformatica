@@ -6,12 +6,58 @@ package com.uca;
 
 public class TrabajoFinal implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TrabajoFinal() {
-    }
+	@org.kie.api.definition.type.Label("Estado")
+	private java.lang.String estado;
+	@org.kie.api.definition.type.Label("Título")
+	private java.lang.String titulo;
+	@org.kie.api.definition.type.Label("Tutor")
+	private java.lang.String tutor;
+	@org.kie.api.definition.type.Label("Fecha de presentación")
+	private java.util.Date fecha;
 
+	public TrabajoFinal() {
+	}
 
+	public java.lang.String getEstado() {
+		return this.estado;
+	}
 
+	public void setEstado(java.lang.String estado) {
+		this.estado = estado;
+	}
+
+	public java.lang.String getTitulo() {
+		return this.titulo;
+	}
+
+	public void setTitulo(java.lang.String titulo) {
+		this.titulo = titulo;
+	}
+
+	public java.lang.String getTutor() {
+		return this.tutor;
+	}
+
+	public void setTutor(java.lang.String tutor) {
+		this.tutor = tutor;
+	}
+
+	public java.util.Date getFecha() {
+		return this.fecha;
+	}
+
+	public void setFecha(java.util.Date fecha) {
+		this.fecha = fecha;
+	}
+
+	public TrabajoFinal(java.lang.String estado, java.lang.String titulo,
+			java.lang.String tutor, java.util.Date fecha) {
+		this.estado = estado;
+		this.titulo = titulo;
+		this.tutor = tutor;
+		this.fecha = fecha;
+	}
 
 }
