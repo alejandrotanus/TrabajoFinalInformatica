@@ -3,44 +3,14 @@
 <property name="name" value="DeterminarEstado-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="alumno_email" type="InputText" id="1778460161">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;email (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/email"/>
-<property name="outputBinding" value="alumno_out/email"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="alumno_nombre" type="InputText" id="1973788676">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nombre (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/nombre"/>
-<property name="outputBinding" value="alumno_out/nombre"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="alumno_nro_legajo" type="InputText" id="821512897">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nro_legajo (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/nro_legajo"/>
-<property name="outputBinding" value="alumno_out/nro_legajo"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="alumno_estado" type="InputTextInteger" id="1780569562">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;estado (alumno)quot;"/>
+<field position="0" name="alumno_estado" type="InputTextInteger" id="1780569562">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;estado (alumno)quot;quot;esquot;,quot;Estado del alumnoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="alumno_in/estado"/>
 <property name="outputBinding" value="alumno_out/estado"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="0" name="alumno_anioFinCursada" type="InputTextInteger" id="804876167">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;anioFinCursada (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/anioFinCursada"/>
-<property name="outputBinding" value="alumno_out/anioFinCursada"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <dataHolder inputId="alumno_in" name="#B29FE4" type="dataModelerEntry" outId="alumno_out" value="com.uca.Alumno" id="alumno"/>
