@@ -3,50 +3,51 @@
 <property name="name" value="CompletarDatos-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="alumno_email" type="InputText" id="1215233902">
+<field position="2" name="alumno_anioFinCursada" type="InputTextInteger" id="427748139">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;email (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/email"/>
-<property name="outputBinding" value="alumno_out/email"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="alumno_observacionEstado" type="InputText" id="772646814">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;observacionEstado (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/observacionEstado"/>
-<property name="outputBinding" value="alumno_out/observacionEstado"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="alumno_nombre" type="InputText" id="1509710712">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nombre (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/nombre"/>
-<property name="outputBinding" value="alumno_out/nombre"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="alumno_anioFinCursada" type="InputTextInteger" id="427748139">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;anioFinCursada (alumno)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;anioFinCursada (alumno)quot;quot;esquot;,quot;Año de fin de cursadaquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="alumno_in/anioFinCursada"/>
 <property name="outputBinding" value="alumno_out/anioFinCursada"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="2" name="alumno_estado" type="InputTextInteger" id="645359487">
+<field position="3" name="alumno_email" type="InputText" id="1215233902">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;estado (alumno)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;email (alumno)quot;quot;esquot;,quot;Dirección de correo electrónicoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/estado"/>
-<property name="outputBinding" value="alumno_out/estado"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="alumno_in/email"/>
+<property name="outputBinding" value="alumno_out/email"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="alumno_nro_legajo" type="InputText" id="546249638">
+<field position="0" name="alumno_nombre" type="InputText" id="1509710712">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nro_legajo (alumno)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nombre (alumno)quot;quot;esquot;,quot;Nombre y Apellidoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="alumno_in/nombre"/>
+<property name="outputBinding" value="alumno_out/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="alumno_nro_legajo" type="InputText" id="546249638">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nro_legajo (alumno)quot;quot;esquot;,quot;N° Legajoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="alumno_in/nro_legajo"/>
 <property name="outputBinding" value="alumno_out/nro_legajo"/>
 <property name="fieldClass" value="java.lang.String"/>
