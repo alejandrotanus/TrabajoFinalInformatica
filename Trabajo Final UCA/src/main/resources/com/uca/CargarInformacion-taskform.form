@@ -5,7 +5,9 @@
 <property name="status" value="0"/>
 <field position="0" name="solicitudDeTrabajo_aprobado" type="CheckBox" id="1441177164">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;aprobado (solicitudDeTrabajo)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;aprobado (solicitudDeTrabajo)quot;quot;esquot;,quot;Aprobadoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="solcitud_in/aprobado"/>
 <property name="outputBinding" value="solicitud_out/aprobado"/>
