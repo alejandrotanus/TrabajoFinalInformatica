@@ -1,0 +1,121 @@
+
+<form id="1175047028">
+<property name="name" value="asignacionTrabajoFinal-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="alumno_nombre" type="InputText" id="751720654">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/nombre"/>
+<property name="outputBinding" value="alumno_out/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="alumno_estado" type="InputTextInteger" id="1104477622">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estado (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/estado"/>
+<property name="outputBinding" value="alumno_out/estado"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="trabajoFinal_fecha" type="InputDate" id="1791121120">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha (trabajoFinal)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="trabajoFinal_in/fecha"/>
+<property name="outputBinding" value="trabajoFinal_out/fecha"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="5" name="alumno_observacionEstado" type="InputText" id="145575690">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observacionEstado (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/observacionEstado"/>
+<property name="outputBinding" value="alumno_out/observacionEstado"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="tutor_nombre" type="InputText" id="740856608">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (tutor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tutor_in/nombre"/>
+<property name="outputBinding" value="tutor_out/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="alumno_email" type="InputText" id="323707777">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/email"/>
+<property name="outputBinding" value="alumno_out/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="trabajoFinal_tutor" type="InputText" id="889401036">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tutor (trabajoFinal)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="trabajoFinal_in/tutor"/>
+<property name="outputBinding" value="trabajoFinal_out/tutor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="alumno_anioFinCursada" type="InputTextInteger" id="1582478880">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;anioFinCursada (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/anioFinCursada"/>
+<property name="outputBinding" value="alumno_out/anioFinCursada"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="tutor_email" type="InputText" id="1581033419">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (tutor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tutor_in/email"/>
+<property name="outputBinding" value="tutor_out/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="alumno_trabajoFinalAsignado" type="Subform" id="665890537">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;trabajoFinalAsignado (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/trabajoFinalAsignado"/>
+<property name="outputBinding" value="alumno_out/trabajoFinalAsignado"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="7" name="trabajoFinal_estado" type="InputText" id="54598715">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estado (trabajoFinal)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="trabajoFinal_in/estado"/>
+<property name="outputBinding" value="trabajoFinal_out/estado"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="tutor_trabajoFinalAsignado" bag-type="com.uca.TrabajoFinal" type="MultipleSubform" id="1324802795">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;trabajoFinalAsignado (tutor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tutor_in/trabajoFinalAsignado"/>
+<property name="outputBinding" value="tutor_out/trabajoFinalAsignado"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="4" name="alumno_nro_legajo" type="InputText" id="1399836464">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nro_legajo (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/nro_legajo"/>
+<property name="outputBinding" value="alumno_out/nro_legajo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="trabajoFinal_titulo" type="InputText" id="1501460641">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulo (trabajoFinal)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="trabajoFinal_in/titulo"/>
+<property name="outputBinding" value="trabajoFinal_out/titulo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="alumno_in" name="#B29FE4" type="dataModelerEntry" outId="alumno_out" value="com.uca.Alumno" id="alumno"/>
+<dataHolder inputId="trabajoFinal_in" name="#FBB767" type="dataModelerEntry" outId="trabajoFinal_out" value="com.uca.TrabajoFinal" id="trabajoFinal"/>
+<dataHolder inputId="tutor_in" name="#FF8881" type="dataModelerEntry" outId="tutor_out" value="com.uca.Tutor" id="tutor"/>
+</form>
