@@ -19,8 +19,11 @@ public class Alumno implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Dirección de correo electrónico")
 	private java.lang.String email;
 
-	@org.kie.api.definition.type.Label(value = "Observaci\u00F3n")
+	@org.kie.api.definition.type.Label("Observación")
 	private java.lang.String observacionEstado;
+
+	@org.kie.api.definition.type.Label(value = "Trabajo final asignado")
+	private com.uca.TrabajoFinal trabajoFinalAsignado;
 
 	public Alumno() {
 	}
@@ -73,15 +76,26 @@ public class Alumno implements java.io.Serializable {
 		this.observacionEstado = observacionEstado;
 	}
 
+	public com.uca.TrabajoFinal getTrabajoFinalAsignado() {
+		return this.trabajoFinalAsignado;
+	}
+
+	public void setTrabajoFinalAsignado(
+			com.uca.TrabajoFinal trabajoFinalAsignado) {
+		this.trabajoFinalAsignado = trabajoFinalAsignado;
+	}
+
 	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
 			java.lang.Integer anioFinCursada, java.lang.Integer estado,
-			java.lang.String email, java.lang.String observacionEstado) {
+			java.lang.String email, java.lang.String observacionEstado,
+			com.uca.TrabajoFinal trabajoFinalAsignado) {
 		this.nombre = nombre;
 		this.nro_legajo = nro_legajo;
 		this.anioFinCursada = anioFinCursada;
 		this.estado = estado;
 		this.email = email;
 		this.observacionEstado = observacionEstado;
+		this.trabajoFinalAsignado = trabajoFinalAsignado;
 	}
 
 }
