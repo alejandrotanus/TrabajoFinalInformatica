@@ -14,8 +14,11 @@ public class TrabajoFinal implements java.io.Serializable {
 	private java.lang.String titulo;
 	@org.kie.api.definition.type.Label("Tutor")
 	private Tutor tutor;
-	@org.kie.api.definition.type.Label("Fecha de presentación")
-	private java.util.Date fecha;
+	@org.kie.api.definition.type.Label(value = "Fecha de presentaci\u00F3n")
+	private java.util.Date fechaPresentacion;
+
+	@org.kie.api.definition.type.Label(value = "Fecha de inicio")
+	private java.util.Date fechaInicio;
 
 	public TrabajoFinal() {
 	}
@@ -36,14 +39,6 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.titulo = titulo;
 	}
 
-	public java.util.Date getFecha() {
-		return this.fecha;
-	}
-
-	public void setFecha(java.util.Date fecha) {
-		this.fecha = fecha;
-	}
-
 	public com.uca.Tutor getTutor() {
 		return this.tutor;
 	}
@@ -52,12 +47,30 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.tutor = tutor;
 	}
 
+	public java.util.Date getFechaPresentacion() {
+		return this.fechaPresentacion;
+	}
+
+	public void setFechaPresentacion(java.util.Date fechaPresentacion) {
+		this.fechaPresentacion = fechaPresentacion;
+	}
+
+	public java.util.Date getFechaInicio() {
+		return this.fechaInicio;
+	}
+
+	public void setFechaInicio(java.util.Date fechaInicio) {
+		this.fechaInicio = fechaInicio;
+	}
+
 	public TrabajoFinal(java.lang.String estado, java.lang.String titulo,
-			com.uca.Tutor tutor, java.util.Date fecha) {
+			com.uca.Tutor tutor, java.util.Date fechaPresentacion,
+			java.util.Date fechaInicio) {
 		this.estado = estado;
 		this.titulo = titulo;
 		this.tutor = tutor;
-		this.fecha = fecha;
+		this.fechaPresentacion = fechaPresentacion;
+		this.fechaInicio = fechaInicio;
 	}
 
 }
