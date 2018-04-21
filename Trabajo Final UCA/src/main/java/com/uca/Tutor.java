@@ -8,13 +8,10 @@ public class Tutor implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Nombre y Apellido")
+	@org.kie.api.definition.type.Label("Nombre y Apellido")
 	private java.lang.String nombre;
-	@org.kie.api.definition.type.Label(value = "Direcci\u00F3n de correo electr\u00F3nico")
+	@org.kie.api.definition.type.Label("Dirección de correo electrónico")
 	private java.lang.String email;
-	@org.kie.api.definition.type.Label(value = "Trabajo final asignado")
-	private java.util.List<com.uca.TrabajoFinal> trabajoFinalAsignado;
-
 	public Tutor() {
 	}
 
@@ -34,20 +31,9 @@ public class Tutor implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public java.util.List<com.uca.TrabajoFinal> getTrabajoFinalAsignado() {
-		return this.trabajoFinalAsignado;
-	}
-
-	public void setTrabajoFinalAsignado(
-			java.util.List<com.uca.TrabajoFinal> trabajoFinalAsignado) {
-		this.trabajoFinalAsignado = trabajoFinalAsignado;
-	}
-
-	public Tutor(java.lang.String nombre, java.lang.String email,
-			java.util.List<com.uca.TrabajoFinal> trabajoFinalAsignado) {
+	public Tutor(java.lang.String nombre, java.lang.String email) {
 		this.nombre = nombre;
 		this.email = email;
-		this.trabajoFinalAsignado = trabajoFinalAsignado;
 	}
 
 }
