@@ -13,7 +13,7 @@ public class TrabajoFinal implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Título")
 	private java.lang.String titulo;
 	@org.kie.api.definition.type.Label("Tutor")
-	private java.lang.String tutor;
+	private Tutor tutor;
 	@org.kie.api.definition.type.Label("Fecha de presentación")
 	private java.util.Date fecha;
 
@@ -36,14 +36,6 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.titulo = titulo;
 	}
 
-	public java.lang.String getTutor() {
-		return this.tutor;
-	}
-
-	public void setTutor(java.lang.String tutor) {
-		this.tutor = tutor;
-	}
-
 	public java.util.Date getFecha() {
 		return this.fecha;
 	}
@@ -52,8 +44,16 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.fecha = fecha;
 	}
 
+	public com.uca.Tutor getTutor() {
+		return this.tutor;
+	}
+
+	public void setTutor(com.uca.Tutor tutor) {
+		this.tutor = tutor;
+	}
+
 	public TrabajoFinal(java.lang.String estado, java.lang.String titulo,
-			java.lang.String tutor, java.util.Date fecha) {
+			com.uca.Tutor tutor, java.util.Date fecha) {
 		this.estado = estado;
 		this.titulo = titulo;
 		this.tutor = tutor;
