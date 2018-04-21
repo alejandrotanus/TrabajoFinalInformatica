@@ -6,7 +6,7 @@
 <field position="0" name="trabajoFinal_titulo" type="InputText" id="1501460641">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;titulo (trabajoFinal)quot;quot;esquot;,quot;Título del Trabajo Finalquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;titulo (trabajoFinal)quot;quot;esquot;,quot;Título del Trabajo Finalquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -16,21 +16,25 @@
 <property name="outputBinding" value="trabajoFinal_out/titulo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="trabajoFinal_tutor" type="InputText" id="889401036">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;tutor (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/tutor"/>
-<property name="outputBinding" value="trabajoFinal_out/tutor"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="trabajoFinal_fechaInicio" type="InputDate" id="136956175">
+<field position="1" name="trabajoFinal_fechaInicio" type="InputDate" id="136956175">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;fechaInicio (trabajoFinal)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="trabajoFinal_in/fechaInicio"/>
 <property name="outputBinding" value="trabajoFinal_out/fechaInicio"/>
 <property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="trabajoFinal_descripcion" type="InputTextArea" id="407669670">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;descripcion (trabajoFinal)quot;quot;esquot;,quot;Descripciónquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="trabajoFinal_in/descripcion"/>
+<property name="outputBinding" value="trabajoFinal_out/descripcion"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="alumno_in" name="#B29FE4" type="dataModelerEntry" outId="alumno_out" value="com.uca.Alumno" id="alumno"/>
 <dataHolder inputId="trabajoFinal_in" name="#FBB767" type="dataModelerEntry" outId="trabajoFinal_out" value="com.uca.TrabajoFinal" id="trabajoFinal"/>
