@@ -3,53 +3,40 @@
 <property name="name" value="CargarInformacion-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="trabajoFinal_descripcion" type="InputText" id="2089944112">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;descripcion (trabajoFinal)quot;"/>
+<field position="1" name="trabajoFinal_descripcion" type="InputTextArea" id="2089944112">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;descripcion (trabajoFinal)quot;quot;esquot;,quot;Descripciónquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="trabajoFinal_in/descripcion"/>
 <property name="outputBinding" value="trabajoFinal_out/descripcion"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="trabajoFinal_titulo" type="InputText" id="3082332">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;titulo (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/titulo"/>
-<property name="outputBinding" value="trabajoFinal_out/titulo"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="trabajoFinal_tutor" type="Subform" id="650111145">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;tutor (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/tutor"/>
-<property name="outputBinding" value="trabajoFinal_out/tutor"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="1" name="trabajoFinal_estado" type="InputText" id="1066792718">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;estado (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/estado"/>
-<property name="outputBinding" value="trabajoFinal_out/estado"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="trabajoFinal_fechaPresentacion" type="InputDate" id="1831718422">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;fechaPresentacion (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/fechaPresentacion"/>
-<property name="outputBinding" value="trabajoFinal_out/fechaPresentacion"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="2" name="trabajoFinal_fechaInicio" type="InputDate" id="1399084664">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;fechaInicio (trabajoFinal)quot;"/>
+<field position="2" name="trabajoFinal_fechaInicio" type="InputShortDate" id="1399084664">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;fechaInicio (trabajoFinal)quot;quot;esquot;,quot;Fecha de inicioquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="trabajoFinal_in/fechaInicio"/>
 <property name="outputBinding" value="trabajoFinal_out/fechaInicio"/>
 <property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name="trabajoFinal_titulo" type="InputText" id="3082332">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;titulo (trabajoFinal)quot;quot;esquot;,quot;Títuloquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="trabajoFinal_in/titulo"/>
+<property name="outputBinding" value="trabajoFinal_out/titulo"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="trabajoFinal_in" name="#FBB767" type="dataModelerEntry" outId="trabajoFinal_out" value="com.uca.TrabajoFinal" id="trabajoFinal"/>
 </form>
