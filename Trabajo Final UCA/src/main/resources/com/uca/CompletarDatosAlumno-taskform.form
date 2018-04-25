@@ -1,0 +1,79 @@
+
+<form id="1702201283">
+<property name="name" value="CompletarDatosAlumno-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="alumno_dni" type="InputTextDouble" id="500107981">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dni (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/dni"/>
+<property name="outputBinding" value="alumno_out/dni"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="6" name="alumno_observacionEstado" type="InputText" id="1172430595">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observacionEstado (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/observacionEstado"/>
+<property name="outputBinding" value="alumno_out/observacionEstado"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="alumno_anioFinCursada" type="InputTextInteger" id="219439559">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;anioFinCursada (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/anioFinCursada"/>
+<property name="outputBinding" value="alumno_out/anioFinCursada"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="alumno_email" type="InputText" id="732900938">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/email"/>
+<property name="outputBinding" value="alumno_out/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="alumno_telefono" type="InputText" id="1775642560">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefono (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/telefono"/>
+<property name="outputBinding" value="alumno_out/telefono"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="alumno_nombre" type="InputText" id="695956034">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/nombre"/>
+<property name="outputBinding" value="alumno_out/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="alumno_estado" type="InputTextInteger" id="482552377">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estado (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/estado"/>
+<property name="outputBinding" value="alumno_out/estado"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="alumno_nro_legajo" type="InputText" id="1121380557">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nro_legajo (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/nro_legajo"/>
+<property name="outputBinding" value="alumno_out/nro_legajo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="alumno_trabajoFinalAsignado" type="Subform" id="1457826623">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;trabajoFinalAsignado (alumno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="alumno_in/trabajoFinalAsignado"/>
+<property name="outputBinding" value="alumno_out/trabajoFinalAsignado"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="alumno_in" name="#B29FE4" type="dataModelerEntry" outId="alumno_out" value="com.uca.Alumno" id="alumno"/>
+</form>
