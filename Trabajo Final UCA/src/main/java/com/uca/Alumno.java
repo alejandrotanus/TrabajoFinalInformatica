@@ -25,10 +25,10 @@ public class Alumno implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Trabajo final asignado")
 	private com.uca.TrabajoFinal trabajoFinalAsignado;
 
-	@org.kie.api.definition.type.Label(value = "DNI")
-	private java.lang.Double dni;
+	@org.kie.api.definition.type.Label("DNI")
+	private String dni;
 
-	@org.kie.api.definition.type.Label(value = "Tel\u00E9fono")
+	@org.kie.api.definition.type.Label("Teléfono")
 	private java.lang.String telefono;
 
 	public Alumno() {
@@ -91,14 +91,6 @@ public class Alumno implements java.io.Serializable {
 		this.trabajoFinalAsignado = trabajoFinalAsignado;
 	}
 
-	public java.lang.Double getDni() {
-		return this.dni;
-	}
-
-	public void setDni(java.lang.Double dni) {
-		this.dni = dni;
-	}
-
 	public java.lang.String getTelefono() {
 		return this.telefono;
 	}
@@ -107,10 +99,18 @@ public class Alumno implements java.io.Serializable {
 		this.telefono = telefono;
 	}
 
+	public java.lang.String getDni() {
+		return this.dni;
+	}
+
+	public void setDni(java.lang.String dni) {
+		this.dni = dni;
+	}
+
 	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
 			java.lang.Integer anioFinCursada, java.lang.Integer estado,
 			java.lang.String email, java.lang.String observacionEstado,
-			com.uca.TrabajoFinal trabajoFinalAsignado, java.lang.Double dni,
+			com.uca.TrabajoFinal trabajoFinalAsignado, java.lang.String dni,
 			java.lang.String telefono) {
 		this.nombre = nombre;
 		this.nro_legajo = nro_legajo;
