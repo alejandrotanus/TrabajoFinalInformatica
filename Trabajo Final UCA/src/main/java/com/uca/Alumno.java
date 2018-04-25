@@ -22,8 +22,14 @@ public class Alumno implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Observación")
 	private java.lang.String observacionEstado;
 
-	@org.kie.api.definition.type.Label(value = "Trabajo final asignado")
+	@org.kie.api.definition.type.Label("Trabajo final asignado")
 	private com.uca.TrabajoFinal trabajoFinalAsignado;
+
+	@org.kie.api.definition.type.Label(value = "DNI")
+	private java.lang.Double dni;
+
+	@org.kie.api.definition.type.Label(value = "Tel\u00E9fono")
+	private java.lang.String telefono;
 
 	public Alumno() {
 	}
@@ -85,10 +91,27 @@ public class Alumno implements java.io.Serializable {
 		this.trabajoFinalAsignado = trabajoFinalAsignado;
 	}
 
+	public java.lang.Double getDni() {
+		return this.dni;
+	}
+
+	public void setDni(java.lang.Double dni) {
+		this.dni = dni;
+	}
+
+	public java.lang.String getTelefono() {
+		return this.telefono;
+	}
+
+	public void setTelefono(java.lang.String telefono) {
+		this.telefono = telefono;
+	}
+
 	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
 			java.lang.Integer anioFinCursada, java.lang.Integer estado,
 			java.lang.String email, java.lang.String observacionEstado,
-			com.uca.TrabajoFinal trabajoFinalAsignado) {
+			com.uca.TrabajoFinal trabajoFinalAsignado, java.lang.Double dni,
+			java.lang.String telefono) {
 		this.nombre = nombre;
 		this.nro_legajo = nro_legajo;
 		this.anioFinCursada = anioFinCursada;
@@ -96,6 +119,8 @@ public class Alumno implements java.io.Serializable {
 		this.email = email;
 		this.observacionEstado = observacionEstado;
 		this.trabajoFinalAsignado = trabajoFinalAsignado;
+		this.dni = dni;
+		this.telefono = telefono;
 	}
 
 }
