@@ -18,7 +18,11 @@
 <property name="param3" value="2"/>
 <property name="param4" value="3"/>
 <property name="param5" value="4"/>
-<property name="onChangeScript" value="alumno_observacionEstado.required = (alumno_estado.value != 4);"/>
+<property name="onChangeScript" value="    if(!$(this).is(4) {
+        $(&apos;#alumno_observacionEstado&apos;).attr(&apos;required&apos;);
+    } else {
+        $(&apos;#alumno_observacionEstado&apos;).removeAttr(&apos;required&apos;);
+    }"/>
 </field>
 <field position="1" name="alumno_observacionEstado" type="InputTextArea" id="951250729">
 <property name="fieldRequired" value="false"/>
