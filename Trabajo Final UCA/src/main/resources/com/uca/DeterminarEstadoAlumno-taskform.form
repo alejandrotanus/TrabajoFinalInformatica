@@ -17,7 +17,8 @@
 <property name="param3" value="2"/>
 <property name="param4" value="3"/>
 <property name="param5" value="4"/>
-<property name="onChangeScript" value="if ((alumno_estado.value !== 4) &amp;&amp; (alumno_observacionEstado.value == &quot;&quot;)) {alert(&quot;Complete las observaciones&quot;);}"/>
+<property name="onChangeScript" value="alert(alumno_estado.value);
+alert(alumno_observacionEstado.value);"/>
 </field>
 <field position="1" name="alumno_observacionEstado" type="InputTextArea" id="951250729">
 <property name="fieldRequired" value="false"/>
@@ -30,7 +31,8 @@
 <property name="inputBinding" value="alumno_in/observacionEstado"/>
 <property name="outputBinding" value="alumno_out/observacionEstado"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="if (alumno_estado.value !== 4) {alert(&quot;Complete las observaciones&quot;);}"/>
+<property name="onChangeScript" value="alert(alumno_estado.value);
+alert(alumno_observacionEstado.value);"/>
 </field>
 <dataHolder inputId="alumno_in" name="#B29FE4" type="dataModelerEntry" outId="alumno_out" value="com.uca.Alumno" id="alumno"/>
 </form>
