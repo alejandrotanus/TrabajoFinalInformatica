@@ -17,13 +17,15 @@
 <property name="param3" value="2"/>
 <property name="param4" value="3"/>
 <property name="param5" value="4"/>
-<property name="onChangeScript" value="if (alumno_estado.value != 4) {
-alumno_observacionEstado.required = true;
+<property name="onChangeScript" value="if (document.getElementById(&quot;alumno_estado&quot;).value != 4) {   
+ document.getElementById(&quot;alumno_observacionEstado&quot;).setAttribute(&apos;required&apos;, &apos;enabled&apos;); 
+} else {  
+ document.getElementById(&quot;alumno_observacionEstado&quot;).removeAttribute(&apos;required&apos;); 
 }"/>
 </field>
 <field position="1" name="alumno_observacionEstado" type="InputTextArea" id="951250729">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;observacionEstado (alumno)quot;quot;esquot;,quot;Observaciónquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;observacionEstado (alumno)quot;quot;esquot;,quot;Observaciónquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
