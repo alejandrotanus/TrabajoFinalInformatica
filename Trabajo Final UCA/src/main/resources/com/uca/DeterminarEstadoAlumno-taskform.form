@@ -17,11 +17,7 @@
 <property name="param3" value="2"/>
 <property name="param4" value="3"/>
 <property name="param5" value="4"/>
-<property name="onChangeScript" value="if (document.getElementById(&quot;alumno_estado&quot;).value != 4) {   
- document.getElementById(&quot;alumno_observacionEstado&quot;).setAttribute(&apos;required&apos;, &apos;enabled&apos;); 
-} else {  
- document.getElementById(&quot;alumno_observacionEstado&quot;).removeAttribute(&apos;required&apos;); 
-}"/>
+<property name="onChangeScript" value="if (document.getElementById(&quot;alumno_estado&quot;).value != 4) {     document.getElementById(&quot;alumno_observacionEstado&quot;).required = true;  } else {    document.getElementById(&quot;alumno_observacionEstado&quot;).required = false;  }"/>
 </field>
 <field position="1" name="alumno_observacionEstado" type="InputTextArea" id="951250729">
 <property name="fieldRequired" value="false"/>
