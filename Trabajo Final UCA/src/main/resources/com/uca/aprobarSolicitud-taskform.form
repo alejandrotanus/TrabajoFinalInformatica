@@ -3,116 +3,24 @@
 <property name="name" value="aprobarSolicitud-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="9" name="trabajoFinal_descripcion" type="InputText" id="1346039256">
+<field position="0" name="alumno_datos" type="Subform" id="1489418973">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;descripcion (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/descripcion"/>
-<property name="outputBinding" value="trabajoFinal_out/descripcion"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="alumno_email" type="InputText" id="1962030100">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;email (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/email"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="alumno_estado" type="InputTextInteger" id="526630309">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;estado (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/estado"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="11" name="trabajoFinal_fechaInicio" type="InputDate" id="1553884312">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;fechaInicio (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/fechaInicio"/>
-<property name="outputBinding" value="trabajoFinal_out/fechaInicio"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="10" name="trabajoFinal_estado" type="InputText" id="1168500621">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;estado (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/estado"/>
-<property name="outputBinding" value="trabajoFinal_out/estado"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="alumno_trabajoFinalAsignado" type="Subform" id="34198080">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;trabajoFinalAsignado (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/trabajoFinalAsignado"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Subform6quot;quot;esquot;,quot;Datos del alumnoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="defaultSubform" value="CompletarDatosAlumno-taskform.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="13" name="trabajoFinal_titulo" type="InputText" id="1120426438">
+<field position="1" name="trabajoFinal_datos" type="Subform" id="1293461082">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;titulo (trabajoFinal)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Subform1quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/titulo"/>
-<property name="outputBinding" value="trabajoFinal_out/titulo"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="alumno_observacionEstado" type="InputText" id="295447852">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;observacionEstado (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/observacionEstado"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="alumno_dni" type="InputText" id="1554325012">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dni (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/dni"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="alumno_telefono" type="InputText" id="395078845">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;telefono (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/telefono"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="alumno_anioFinCursada" type="InputTextInteger" id="1369906289">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;anioFinCursada (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/anioFinCursada"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="14" name="trabajoFinal_tutor" type="Subform" id="1689866019">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;tutor (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/tutor"/>
-<property name="outputBinding" value="trabajoFinal_out/tutor"/>
+<property name="defaultSubform" value="asignacionTrabajoFinal-taskform.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="4" name="alumno_nombre" type="InputText" id="597905144">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nombre (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/nombre"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="12" name="trabajoFinal_fechaPresentacion" type="InputDate" id="644510769">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;fechaPresentacion (trabajoFinal)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="trabajoFinal_in/fechaPresentacion"/>
-<property name="outputBinding" value="trabajoFinal_out/fechaPresentacion"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="5" name="alumno_nro_legajo" type="InputText" id="2058639754">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nro_legajo (alumno)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="alumno_in/nro_legajo"/>
-<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="alumno_in" name="#B29FE4" type="dataModelerEntry" outId="" value="com.uca.Alumno" id="alumno"/>
 <dataHolder inputId="trabajoFinal_in" name="#FBB767" type="dataModelerEntry" outId="trabajoFinal_out" value="com.uca.TrabajoFinal" id="trabajoFinal"/>
