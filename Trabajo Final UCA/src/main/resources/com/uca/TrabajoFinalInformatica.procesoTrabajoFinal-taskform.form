@@ -8,6 +8,5 @@
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="contenido" value="java.lang.String" id="contenido"/>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="de" value="java.lang.String" id="de"/>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="para" value="java.lang.String" id="para"/>
-<dataHolder inputId="" name="#A7E690" type="dataModelerEntry" outId="solicitudDeTrabajo" value="com.uca.SolicitudDeTrabajo" id="solicitudDeTrabajo"/>
 <dataHolder inputId="" name="#FBB767" type="dataModelerEntry" outId="trabajoFinal" value="com.uca.TrabajoFinal" id="trabajoFinal"/>
 </form>
