@@ -5,6 +5,7 @@ package com.uca;
  */
 
 @org.kie.api.definition.type.Label("Alumno")
+@org.kie.api.definition.type.Description("Alumno que realiza el trabajo final")
 public class Alumno implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
