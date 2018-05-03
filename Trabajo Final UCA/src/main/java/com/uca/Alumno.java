@@ -108,6 +108,13 @@ public class Alumno implements java.io.Serializable {
 	public void setDni(java.lang.String dni) {
 		this.dni = dni;
 	}
+	
+	public java.lang.String toString() {
+        return "Nombre: " + this.nombre + ", "
+             + "DNI: "    + this.dni + ", " 
+             + "Legajo: " + this.nro_legajo + ", "
+             + "Email: "  + this.email;
+    }
 
 	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
 			java.lang.Integer anioFinCursada, java.lang.Integer estado,
