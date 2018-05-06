@@ -113,7 +113,8 @@ public class Alumno implements java.io.Serializable {
         return "Nombre: " + this.nombre + ", "
              + "DNI: "    + this.dni + ", " 
              + "Legajo: " + this.nro_legajo + ", "
-             + "Email: "  + this.email;
+             + "Email: "  + this.email + ", "
+             + "Estado: " + this.estado;
     }
 
 	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
