@@ -12,6 +12,10 @@ public class Constantes implements java.io.Serializable {
 	@org.kie.api.definition.type.Description("Dirección de correo remitente de la UCA para el envío de los correos")
 	private java.lang.String correoUCA;
 
+	@org.kie.api.definition.type.Description(value = "Direcci\u00F3n de correo de la Secretar\u00EDa para el env\u00EDo de los correos")
+	@org.kie.api.definition.type.Label(value = "Correo Secretar\u00EDa")
+	private java.util.List<java.lang.String> correoSecretaria;
+
 	public Constantes() {
 	}
 
@@ -23,8 +27,19 @@ public class Constantes implements java.io.Serializable {
 		this.correoUCA = correoUCA;
 	}
 
-	public Constantes(java.lang.String correoUCA) {
+	public java.util.List<java.lang.String> getCorreoSecretaria() {
+		return this.correoSecretaria;
+	}
+
+	public void setCorreoSecretaria(
+			java.util.List<java.lang.String> correoSecretaria) {
+		this.correoSecretaria = correoSecretaria;
+	}
+
+	public Constantes(java.lang.String correoUCA,
+			java.util.List<java.lang.String> correoSecretaria) {
 		this.correoUCA = correoUCA;
+		this.correoSecretaria = correoSecretaria;
 	}
 
 }
