@@ -8,7 +8,8 @@ public class Constantes implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Correo remitente de la UCA")
+	@org.kie.api.definition.type.Label("Correo UCA")
+	@org.kie.api.definition.type.Description("Dirección de correo remitente de la UCA para el envío de los correos")
 	private java.lang.String correoUCA;
 
 	public Constantes() {
