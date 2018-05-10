@@ -6,12 +6,24 @@ package com.uca;
 
 public class Constantes implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Constantes() {
-    }
+	@org.kie.api.definition.type.Label(value = "Correo remitente de la UCA")
+	private java.lang.String correoUCA;
 
+	public Constantes() {
+	}
 
+	public java.lang.String getCorreoUCA() {
+		return this.correoUCA;
+	}
 
+	public void setCorreoUCA(java.lang.String correoUCA) {
+		this.correoUCA = correoUCA;
+	}
+
+	public Constantes(java.lang.String correoUCA) {
+		this.correoUCA = correoUCA;
+	}
 
 }
