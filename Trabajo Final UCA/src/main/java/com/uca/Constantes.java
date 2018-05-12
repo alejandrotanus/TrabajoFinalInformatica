@@ -30,6 +30,10 @@ public class Constantes implements java.io.Serializable {
 	public java.util.List<java.lang.String> getCorreoSecretaria() {
 		return this.correoSecretaria;
 	}
+	
+	public java.lang.String getCorreoSecretaria() {
+		return String.join(";", correoSecretaria);
+	}
 
 	public void setCorreoSecretaria(
 			java.util.List<java.lang.String> correoSecretaria) {
