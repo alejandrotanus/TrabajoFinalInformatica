@@ -27,6 +27,12 @@ public class TrabajoFinal implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Acepta fecha de presentación")
 	private java.lang.Boolean aceptaFechaPresentacion;
 
+	@org.kie.api.definition.type.Label(value = "Observaciones")
+	private java.lang.String observaciones;
+
+	@org.kie.api.definition.type.Label(value = "Nota")
+	private java.lang.Integer nota;
+
 	public TrabajoFinal() {
 	}
 
@@ -87,10 +93,27 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.aceptaFechaPresentacion = aceptaFechaPresentacion;
 	}
 
+	public java.lang.String getObservaciones() {
+		return this.observaciones;
+	}
+
+	public void setObservaciones(java.lang.String observaciones) {
+		this.observaciones = observaciones;
+	}
+
+	public java.lang.Integer getNota() {
+		return this.nota;
+	}
+
+	public void setNota(java.lang.Integer nota) {
+		this.nota = nota;
+	}
+
 	public TrabajoFinal(java.lang.String estado, java.lang.String titulo,
 			com.uca.Tutor tutor, java.util.Date fechaPresentacion,
 			java.util.Date fechaInicio, java.lang.String descripcion,
-			java.lang.Boolean aceptaFechaPresentacion) {
+			java.lang.Boolean aceptaFechaPresentacion,
+			java.lang.String observaciones, java.lang.Integer nota) {
 		this.estado = estado;
 		this.titulo = titulo;
 		this.tutor = tutor;
@@ -98,6 +121,8 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.fechaInicio = fechaInicio;
 		this.descripcion = descripcion;
 		this.aceptaFechaPresentacion = aceptaFechaPresentacion;
+		this.observaciones = observaciones;
+		this.nota = nota;
 	}
 
 }
