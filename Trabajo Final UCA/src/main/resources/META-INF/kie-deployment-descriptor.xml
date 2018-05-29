@@ -35,5 +35,5 @@
     <remoteable-classes>
         <remoteable-class>com.uca.Alumno</remoteable-class>
     </remoteable-classes>
-    <limit-serialization-classes>true</limit-serialization-classes>
+    <limit-serialization-classes>false</limit-serialization-classes>
 </deployment-descriptor>
