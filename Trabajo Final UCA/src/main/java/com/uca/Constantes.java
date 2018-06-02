@@ -12,9 +12,13 @@ public class Constantes implements java.io.Serializable {
 	@org.kie.api.definition.type.Description("Dirección de correo remitente de la UCA para el envío de los correos")
 	private java.lang.String correoUCA;
 
-	@org.kie.api.definition.type.Description(value = "Direcci\u00F3n de correo de la Secretar\u00EDa para el env\u00EDo de los correos")
-	@org.kie.api.definition.type.Label(value = "Correo Secretar\u00EDa")
+	@org.kie.api.definition.type.Description("Dirección de correo de la Secretaría para el envío de los correos")
+	@org.kie.api.definition.type.Label("Correo Secretaría")
 	private java.util.List<java.lang.String> correoSecretaria;
+
+	@org.kie.api.definition.type.Description(value = "URL para el acceso a la interfaz remota")
+	@org.kie.api.definition.type.Label(value = "URL Interfaz")
+	private java.lang.String urlInterfaz;
 
 	public Constantes() {
 	}
@@ -30,7 +34,7 @@ public class Constantes implements java.io.Serializable {
 	public java.util.List<java.lang.String> getCorreoSecretaria() {
 		return this.correoSecretaria;
 	}
-	
+
 	public java.lang.String getCorreoSecretaria(String separador) {
 		return String.join(separador, correoSecretaria);
 	}
@@ -40,10 +44,20 @@ public class Constantes implements java.io.Serializable {
 		this.correoSecretaria = correoSecretaria;
 	}
 
+	public java.lang.String getUrlInterfaz() {
+		return this.urlInterfaz;
+	}
+
+	public void setUrlInterfaz(java.lang.String urlInterfaz) {
+		this.urlInterfaz = urlInterfaz;
+	}
+
 	public Constantes(java.lang.String correoUCA,
-			java.util.List<java.lang.String> correoSecretaria) {
+			java.util.List<java.lang.String> correoSecretaria,
+			java.lang.String urlInterfaz) {
 		this.correoUCA = correoUCA;
 		this.correoSecretaria = correoSecretaria;
+		this.urlInterfaz = urlInterfaz;
 	}
 
 }
