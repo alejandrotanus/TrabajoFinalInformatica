@@ -3,9 +3,6 @@
     <persistence-unit name="com.uca:TrabajoFinalUCA:1.0" transaction-type="JTA">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
-        <class>com.uca.Alumno</class>
-        <class>com.uca.TrabajoFinal</class>
-        <class>com.uca.Tutor</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
