@@ -109,6 +109,13 @@ public class TrabajoFinal implements java.io.Serializable {
 		this.nota = nota;
 	}
 
+	public java.lang.String toString() {
+        return "Título: "         + this.titulo         + "<br>"
+             + "Descripción: "    + this.descripcion    + "<br>"
+             + "Fecha inicio: "   + this.fechaInicio    + "<br>"
+             + "Estado: "         + this.anioFinCursada + "<br>";
+    }
+
 	public TrabajoFinal(java.lang.String estado, java.lang.String titulo,
 			com.uca.Tutor tutor, java.util.Date fechaPresentacion,
 			java.util.Date fechaInicio, java.lang.String descripcion,
