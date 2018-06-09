@@ -113,7 +113,7 @@ public class TrabajoFinal implements java.io.Serializable {
         return "Título: "         + this.titulo         + "<br>"
              + "Descripción: "    + this.descripcion    + "<br>"
              + "Fecha inicio: "   + this.fechaInicio    + "<br>"
-             + "Estado: "         + this.anioFinCursada + "<br>";
+             + "Estado: "         + this.estado         + "<br>";
     }
 
 	public TrabajoFinal(java.lang.String estado, java.lang.String titulo,
