@@ -31,6 +31,11 @@ public class Tutor implements java.io.Serializable {
 		this.email = email;
 	}
 
+	public java.lang.String toString() {
+        return "Nombre: " + this.nombre + "<br>"
+             + "Email: "  + this.email  + "<br>";
+    }
+
 	public Tutor(java.lang.String nombre, java.lang.String email) {
 		this.nombre = nombre;
 		this.email = email;
