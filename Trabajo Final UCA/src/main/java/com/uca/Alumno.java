@@ -110,14 +110,14 @@ public class Alumno implements java.io.Serializable {
 	}
 	
 	public java.lang.String toString() {
-        return "Nombre: "       + this.nombre + String.format("%n")
-             + "DNI: "          + this.dni + String.format("%n") 
-             + "Legajo: "       + this.nro_legajo + String.format("%n")
-             + "Fin cursada"    + this.anioFinCursada + String.format("%n")
-             + "Email: "        + this.email + String.format("%n")
-             + "Teléfono:"      + this.telefono + String.format("%n")
-             + "Estado"         + this.estado + String.format("%n")
-             + "Trabajo Final"  + this.trabajoFinalAsignado;
+        return "Nombre: "         + this.nombre + "<br>"
+             + "DNI: "            + this.dni + "<br>"
+             + "Legajo: "         + this.nro_legajo + "<br>"
+             + "Fin cursada: "    + this.anioFinCursada + "<br>"
+             + "Email: "          + this.email + "<br>"
+             + "Teléfono: "       + this.telefono + "<br>"
+             + "Estado: "         + this.estado + "<br>"
+             + "Trabajo Final: "  + this.trabajoFinalAsignado + "<br>";
     }
 
 	public Alumno(java.lang.String nombre, java.lang.String nro_legajo,
